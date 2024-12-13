@@ -13,5 +13,5 @@ public class Operator extends Employee{
     @Override
     public int getSalary() {
         return baseSalary + (int) (0.05 * baseSalary);
-    }
+    } //бонус 5 %
 }

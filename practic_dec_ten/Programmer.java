@@ -10,7 +10,7 @@ public class Programmer extends Employee {
 
     @Override
     public int getSalary() {
-        return baseSalary + (int) (0.1 * companyIncome);
+        return baseSalary + (int) (0.1 * companyIncome); //бонус 10 %
     }
 }
 

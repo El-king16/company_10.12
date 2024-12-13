@@ -19,9 +19,6 @@ public class Company {
         employees.add(employee);
     }
 
-    public void hireEmployees(List<Employee> newEmployees) {
-        employees.addAll(newEmployees);
-    }
 
     public void fireEmployee(Employee employee) {
         employees.remove(employee);
